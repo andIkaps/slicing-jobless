@@ -12,9 +12,10 @@ const Navbar = () => {
               Jobless
             </a>
           </div>
-          <div className='col-3 d-lg-none d-flex justiy-content-end'>
+          <div className='col d-lg-none d-flex justify-content-end' style={{ padding: 0 }}>
             <button
               className='navbar-toggler'
+              style={{ border: 'none' }}
               type='button'
               data-bs-toggle='collapse'
               data-bs-target='#navbarNavAltMarkup'
@@ -44,7 +45,6 @@ const Navbar = () => {
               <Button isOutline type={'link'} href={'/sign-up'}>
                 Sign Up
               </Button>
-              {/* <button className='btn btn-outline'>Sign Up</button> */}
             </div>
           </div>
         </div>

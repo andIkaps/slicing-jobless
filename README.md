@@ -54,7 +54,7 @@ Install all package
 
 ## Demo
 
-(Comming soon)
+[Demo](https://slicing-jobless.vercel.app/)
 
 ## Tech Stack
 

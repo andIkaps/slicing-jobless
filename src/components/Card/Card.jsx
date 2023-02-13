@@ -10,7 +10,7 @@ const Card = ({ className, jobTitle, companyName, jobDesc, salary, skill, image 
         <figure className='img-brand'>
           <img src={image} alt='Vercel Logo' className='img-fluid' />
           <figcaption>
-            <h2 className='h6 text-black'>{jobTitle}</h2>
+            <h2 className='h6'>{jobTitle}</h2>
             <span>{companyName}</span>
           </figcaption>
         </figure>

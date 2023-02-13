@@ -1,0 +1,66 @@
+@import '../../assets/scss/color-variables';
+
+.card {
+  padding: 1.5rem !important;
+  background: rgba(255, 255, 255, 0.6) !important;
+  box-shadow: 0px 30px 60px rgba(0, 26, 255, 0.1) !important;
+  border-radius: 8px !important;
+  border: none !important;
+
+  .card-header {
+    border: none;
+    padding: 0;
+    background: none;
+
+    .img-brand {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      border-radius: 8px;
+      overflow: hidden;
+
+      img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+      }
+      figcaption {
+        h2.h6 {
+          margin: 0;
+        }
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .card-body {
+    padding: 0;
+  }
+
+  .card-footer {
+    padding: 1rem 0 0 0;
+    background: none;
+    border-top: 1px solid rgba($black, $alpha: 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span.badge {
+      border-radius: 100px;
+      background-color: rgba($black, $alpha: 0.1);
+      padding: 0.3rem 1rem;
+      font-size: 12px;
+    }
+
+    .salary {
+      font-size: 14px;
+      color: $black;
+      font-weight: 600;
+    }
+  }
+
+  &:hover {
+    background-color: $primary;
+  }
+}

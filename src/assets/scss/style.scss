@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+// Import all of Bootstrap's CSS
+@import '~bootstrap/scss/bootstrap';
+@import 'color-variables';
+
+body {
+  font-family: 'Poppins', sans-serif;
+
+  &:before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, #0500ff 0.52%, #f8fb76 35.41%, #4eff75 63.63%, #00ffd1 99.03%);
+    z-index: -10;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(#f6faff, 0.9) !important;
+    z-index: -9;
+  }
+}
